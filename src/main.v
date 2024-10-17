@@ -3,5 +3,6 @@ module main
 import mod1
 
 fn main() {
-	mod1.hello()
+	res := mod1.hello()
+	println(res)
 }
